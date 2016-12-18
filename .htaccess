@@ -1,0 +1,10 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+#Don't favicon!
+RewriteCond %{REQUEST_FILENAME} !^favicon\.ico
+RewriteCond %{REQUESR_FILENAME} !-f
+RewriteCond %{REQUESR_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php [L,QSA]

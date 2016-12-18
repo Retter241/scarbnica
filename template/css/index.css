@@ -1,0 +1,119 @@
+body {
+    background-image: url("../img/imdex-bg.jpg");
+    background-size:cover ;
+    /*min-height:1500px;*/
+    position: relative;
+    background-position-y: -190px;
+    background-attachment: fixed;
+    
+
+}
+
+
+
+.header-wrapper {
+    background:transparent;
+}
+.dropdown {
+    color: #FFF;
+    border-right: 1px solid white;
+    height:15px;
+    padding: 0;
+    display: block;
+
+    padding-right: 50px;
+    font-size: 20px;
+
+}
+.dropdown-toggle  {
+    color: #FFF;!important;
+
+}
+.dropdown-menu{
+    position: absolute;
+    top: 110%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 12px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dropdown  {
+    background: transparent;
+}
+li .open {
+    background: transparent!important;
+    background-image: none!important;
+    box-shadow: none!important;
+}
+#d1 {
+    color: #FFF;
+    font-size: 18px;
+
+}
+#d2 {
+    color: #FFF;
+}
+li.icon a{
+    margin-left: 20px;
+}
+#index{}
+#index{}
+.index-wrapper{
+             width:75%;
+             height: 100px;
+
+         }
+#index{}
+.index-wrapper h1{
+             text-align: center;
+             color: #FFF;
+         }
+.index-wrapper span{
+             float: right;
+             margin-right: 20%;
+             color: white;
+             font-size: 20px;
+         }
+.index-form-wrapper{
+    position: relative;
+    margin-top: 4%;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+#search {
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+}
+#sub-main{
+    width: 120px;
+    background-color: #FFE39D;
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+    border:transparent;
+}
+
+
+main {
+    margin-bottom: 185px;
+    position: relative;
+    /*position: fixed;
+    bottom: 0;*/
+}
+
+
